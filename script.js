@@ -22,5 +22,5 @@ document.addEventListener('submit', e => {
     
     document.querySelector('.result-div').classList.remove('d-none');
 
-    document.querySelector('#distance-input').value =
+    document.querySelector('#distance-input').value = null;
 });
